@@ -1,8 +1,3 @@
-/*
-Author: XamDesign
-Date: 24.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xam_shoes_app/core/models/shoe_model.dart';
