@@ -19,7 +19,7 @@ class HomeTitle extends StatelessWidget {
       ),
       child: CustomTitle(
         titleTop: TranslationKeys.homeTitleLine1.trParams({
-          "Items": "Nike",
+          "Items": "adidas",
         }),
         titleBottom: TranslationKeys.products.tr,
       ),

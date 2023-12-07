@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
 
 class HomeCarousel extends StatelessWidget {
-  const HomeCarousel({super.key});
+  const HomeCarousel({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,26 +18,26 @@ class HomeCarousel extends StatelessWidget {
           viewportFraction: 1,
           initialPage: 0,
           enlargeCenterPage: false,
-          autoPlay: true,
+          autoPlay: false,
           autoPlayInterval: const Duration(seconds: 3),
           autoPlayAnimationDuration: const Duration(milliseconds: 800),
           autoPlayCurve: Curves.fastOutSlowIn,
         ),
         items: [
-          "assets/images/adidas_campaign.jpeg",
-          "assets/images/nike_campaign.jpg",
-          "assets/images/puma_campaign.jpeg"
-        ]
-            .map((e) => ClipRRect(
-                  borderRadius: BorderRadius.circular(24.0),
-                  child: Image.asset(
-                    e,
-                    width: DeviceUtils.getWidth(context),
-                    height: DeviceUtils.getDynamicHeight(context, 0.2),
-                    fit: BoxFit.fitWidth,
-                  ),
-                ))
-            .toList(),
+          'assets/images/001.png',
+          'assets/images/001.png',
+          // Add more image paths as needed
+        ].map((e) {
+          return ClipRRect(
+            borderRadius: BorderRadius.circular(24.0),
+            child: Image.asset(
+              e,
+              width: DeviceUtils.getWidth(context),
+              height: DeviceUtils.getDynamicHeight(context, 0.2),
+              fit: BoxFit.fitWidth,
+            ),
+          );
+        }).toList(),
       ),
     );
   }

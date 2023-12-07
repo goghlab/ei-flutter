@@ -1,7 +1,3 @@
-/*
-Author: XamDesign
-Date: 30.05.2023
-*/
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -21,7 +17,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return CustomAppBar(
-      title: TranslationKeys.home.tr.toUpperCase(),
+      title: "EVERYTHING INTELLIGENCE", 
       leading: CustomAppBarButton(
         icon: "assets/images/drawer_menu.svg",
         onPressed: () {
@@ -31,7 +27,6 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
               .openDrawer();
         },
       ),
-      trailing: const CustomThemeSwitcher(),
     );
   }
 }
