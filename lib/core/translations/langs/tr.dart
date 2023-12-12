@@ -78,7 +78,7 @@ const Map<String, String> trTranslations = {
   TranslationKeys.signOut: "Çıkış Yap",
 
   // Discover
-  TranslationKeys.discoverAll: "Hepsini Keşfet",
+  TranslationKeys.qrCode: "Hepsini Keşfet",
   TranslationKeys.discoverTitleLine1: "@count Ayakkabı",
   TranslationKeys.discoverTitleLine2: "Mevcut",
 

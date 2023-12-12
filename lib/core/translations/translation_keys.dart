@@ -75,9 +75,10 @@ class TranslationKeys {
   static const String signOut = "sign_out";
 
   // Discover
-  static const String discoverAll = "discover_all";
+  static const String qrCode = "my_qr_code";
   static const String discoverTitleLine1 = "discover_title_line_1";
   static const String discoverTitleLine2 = "discover_title_line_2";
+  static const String discoverAll = "Descobrir Todos"; // Add this line
 
   // Category
   static const String category = "category";

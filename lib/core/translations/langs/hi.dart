@@ -77,7 +77,7 @@ const Map<String, String> hiTranslations = {
   TranslationKeys.signOut: "साइन आउट",
 
 // Discover
-  TranslationKeys.discoverAll: "सभी खोजें",
+  TranslationKeys.qrCode: "सभी खोजें",
   TranslationKeys.discoverTitleLine1: "@count जूते उपलब्ध हैं",
   TranslationKeys.discoverTitleLine2: "",
 

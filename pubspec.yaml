@@ -23,6 +23,7 @@ dependencies:
   sticky_grouped_list: ^3.1.0
   carousel_slider: ^4.2.1
   rxdart: ^0.27.7
+  qr_flutter: ^4.0.0
 
 dev_dependencies:
   flutter_test:
@@ -61,3 +62,6 @@ flutter:
           weight: 200
         - asset: assets/fonts/SFUIDisplay-Ultralight.otf
           weight: 100
+
+
+ 

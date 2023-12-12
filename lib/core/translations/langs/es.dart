@@ -79,7 +79,7 @@ const Map<String, String> esTranslations = {
   TranslationKeys.signOut: "Cerrar sesión",
 
   // Discover
-  TranslationKeys.discoverAll: "Descubrir todo",
+  TranslationKeys.qrCode: "Descubrir todo",
   TranslationKeys.discoverTitleLine1: "@count zapatos disponibles",
   TranslationKeys.discoverTitleLine2: "",
 

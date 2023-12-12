@@ -23,7 +23,7 @@ class DiscoverAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return CustomAppBar(
-      title: TranslationKeys.discoverAll.tr.toUpperCase(),
+      title: TranslationKeys.qrCode.tr.toUpperCase(),
       trailing: CustomAppBarNotificationButton(
         icon: "assets/images/search.svg",
         onPressed: () => Get.to(() => const SearchScreen()),

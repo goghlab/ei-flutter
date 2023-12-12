@@ -80,7 +80,7 @@ const Map<String, String> ruTranslations = {
   TranslationKeys.signOut: "Выйти",
 
   // Discover
-  TranslationKeys.discoverAll: "Открыть все",
+  TranslationKeys.qrCode: "Открыть все",
   TranslationKeys.discoverTitleLine1: "Доступно @count пар",
   TranslationKeys.discoverTitleLine2: "обуви",
 
