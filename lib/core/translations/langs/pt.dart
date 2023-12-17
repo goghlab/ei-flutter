@@ -78,7 +78,7 @@ const Map<String, String> ptTranslations = {
   TranslationKeys.signOut: "Sair",
 
 // Discover
-  TranslationKeys.discoverAll: "Descobrir Todos",
+  TranslationKeys.qrCode: "Descobrir Todos",
   TranslationKeys.discoverTitleLine1: "@count Sapatos Disponíveis",
   TranslationKeys.discoverTitleLine2: "Para Você",
 

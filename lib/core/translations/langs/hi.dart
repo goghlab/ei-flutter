@@ -80,6 +80,7 @@ const Map<String, String> hiTranslations = {
   TranslationKeys.qrCode: "सभी खोजें",
   TranslationKeys.discoverTitleLine1: "@count जूते उपलब्ध हैं",
   TranslationKeys.discoverTitleLine2: "",
+  
 
 // Category
   TranslationKeys.category: "श्रेणी",

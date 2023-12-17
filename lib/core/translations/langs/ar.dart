@@ -77,7 +77,7 @@ const Map<String, String> arTranslations = {
   TranslationKeys.signOut: "تسجيل الخروج",
 
   // Discover
-  TranslationKeys.discoverAll: "اكتشف الكل",
+  TranslationKeys.qrCode: "اكتشف الكل",
   TranslationKeys.discoverTitleLine1: "متاح @count أحذية",
   TranslationKeys.discoverTitleLine2: "",
 
