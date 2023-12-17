@@ -23,9 +23,7 @@ class DiscoverTitle extends StatelessWidget {
         vertical: DeviceUtils.getDynamicHeight(context, 0.02),
       ),
       child: CustomTitle(
-        titleTop: TranslationKeys.discoverTitleLine1.trParams({
-          "count": "1001",
-        }),
+        titleTop: "🤳Scan QR Code to Enter", 
         titleBottom: TranslationKeys.discoverTitleLine2.tr,
       ),
     );

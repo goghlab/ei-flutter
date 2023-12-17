@@ -84,7 +84,7 @@ const Map<String, String> enTranslations = {
   // Discover
   TranslationKeys.qrCode: "My QR Code",
   TranslationKeys.discoverTitleLine1: "@count Shoes Are",
-  TranslationKeys.discoverTitleLine2: "Available",
+  TranslationKeys.discoverTitleLine2: "ENTER EI-AUTOSHOP",
 
   // Category
   TranslationKeys.category: "Category",
