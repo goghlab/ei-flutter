@@ -1,27 +1,22 @@
-/*
-Author: XamDesign
-Date: 22.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:xam_shoes_app/ui/views/navigation/navigation_screen.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_email_field.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_password_field.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_sign_in_button.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_username_field.dart';
+import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_email_field.dart';
+import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_password_field.dart';
+import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_sign_up_button.dart';
+import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_username_field.dart';
 
-class SignInForm extends StatefulWidget {
-  const SignInForm({
+class SignUpForm extends StatefulWidget {
+  const SignUpForm({
     super.key,
   });
 
   @override
-  State<SignInForm> createState() => _SignInFormState();
+  State<SignUpForm> createState() => _SignUpFormState();
 }
 
-class _SignInFormState extends State<SignInForm> {
+class _SignUpFormState extends State<SignUpForm> {
   final _formKey = GlobalKey<FormState>();
 
   @override
@@ -30,10 +25,10 @@ class _SignInFormState extends State<SignInForm> {
       key: _formKey,
       child: Column(
         children: [
-          const SignInUsernameField(),
-          const SignInEmailField(),
-          const SignInPasswordField(),
-          SignInSignInButton(
+          const SignUpUsernameField(),
+          const SignUpEmailField(),
+          const SignUpPasswordField(),
+          SignUpSignUpButton(
             onTap: () {
               if (_formKey.currentState!.validate()) {
                 Get.to(() => const NavigationScreen());
