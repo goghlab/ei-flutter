@@ -1,19 +1,14 @@
-/*
-Author: XamDesign
-Date: 23.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:xam_shoes_app/core/constants/color_constants.dart';
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/sign_in_screen.dart';
+import 'package:xam_shoes_app/ui/views/sign_up/sign_up_screen.dart';
 
-class LoginSignInButton extends StatelessWidget {
-  const LoginSignInButton({
-    super.key,
-  });
+class LoginSignUpButton extends StatelessWidget {
+  LoginSignUpButton({
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +17,7 @@ class LoginSignInButton extends StatelessWidget {
       child: GestureDetector(
         onTap: () {
           HapticFeedback.lightImpact();
-          Get.to(
-                () => const SignInScreen(),
-          );
+          Get.to(SignUpScreen());
         },
         child: Text(
           TranslationKeys.dontHaveAccountSignUp.tr,
