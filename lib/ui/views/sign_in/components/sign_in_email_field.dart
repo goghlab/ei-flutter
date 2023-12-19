@@ -1,19 +1,14 @@
-/*
-Author: XamDesign
-Date: 22.05.2023
-*/
-
+// signInEmailField.dart
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
+import 'package:xam_shoes_app/core/widgets/custom_text_field/custom_text_field_with_title.dart';
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/core/widgets/custom_text_field/custom_text_field_with_title.dart';
+import 'package:get/get.dart';
 
 class SignInEmailField extends StatelessWidget {
-  const SignInEmailField({
-    super.key,
-  });
+  final TextEditingController controller;
+
+  const SignInEmailField({required this.controller, Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,6 +20,7 @@ class SignInEmailField extends StatelessWidget {
         title: TranslationKeys.emailTitle.tr,
         hintText: TranslationKeys.emailHint.tr,
         textInputAction: TextInputAction.next,
+        controller: controller, // Add this line
       ),
     );
   }

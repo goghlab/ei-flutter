@@ -1,19 +1,14 @@
-/*
-Author: XamDesign
-Date: 22.05.2023
-*/
-
+// signInPasswordField.dart
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
+import 'package:xam_shoes_app/core/widgets/custom_text_field/custom_text_field_with_title.dart';
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/core/widgets/custom_text_field/custom_text_field_with_title.dart';
+import 'package:get/get.dart';
 
 class SignInPasswordField extends StatelessWidget {
-  const SignInPasswordField({
-    super.key,
-  });
+  final TextEditingController controller;
+
+  const SignInPasswordField({required this.controller, Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +19,9 @@ class SignInPasswordField extends StatelessWidget {
       child: CustomTextFieldWithTitle(
         title: TranslationKeys.passwordTitle.tr,
         hintText: TranslationKeys.passwordHint.tr,
+        textInputAction: TextInputAction.done,
         obscureText: true,
+        controller: controller, // Add this line
       ),
     );
   }
