@@ -13,7 +13,7 @@ dependencies:
 
   cupertino_icons: ^1.0.5
   flutter_svg: ^2.0.6
-  get: ^4.6.5
+  get: ^4.6.5 
   animate_do: ^3.0.2
   mobile_scanner: ^3.2.0
   flutter_map: ^5.0.0
@@ -24,6 +24,9 @@ dependencies:
   carousel_slider: ^4.2.1
   rxdart: ^0.27.7
   qr_flutter: ^4.1.0
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_core: ^2.24.2
 
 dev_dependencies:
   flutter_test:
