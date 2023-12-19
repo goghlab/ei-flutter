@@ -1,10 +1,3 @@
-// ignore_for_file: avoid_field_initializers_in_const_classes
-
-/*
-Author: XamDesign
-Date: 30.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

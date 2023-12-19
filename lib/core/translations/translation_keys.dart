@@ -19,13 +19,14 @@ class TranslationKeys {
   static const String login = "login";
   static const String loginTitle = "login_title";
   static const String loginDescription = "login_description";
-  static const String continueWithGoogle = "continue_with_google";
+  static const String continueWithGoogle = "login_with_google";
   static const String emailTitle = "email_title";
   static const String emailHint = "email_hint";
   static const String passwordTitle = "password_title";
   static const String passwordHint = "password_hint";
   static const String rememberMe = "remember_me";
-  static const String dontHaveAccountSignIn = "dont_have_account_sign_in";
+  static const String dontHaveAccountSignIn = "Already_have_account_sign_in";
+  static const String dontHaveAccountSignUp = "dont_have_account_sign_up";
   static const String signIn = "sign_in";
   static const String signInTitle = "sign_in_title";
   static const String signInDescription = "sign_in_description";

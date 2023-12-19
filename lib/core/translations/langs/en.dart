@@ -28,8 +28,9 @@ const Map<String, String> enTranslations = {
   TranslationKeys.passwordTitle: "Password",
   TranslationKeys.passwordHint: "Enter your password",
   TranslationKeys.rememberMe: "Remember Me",
-  TranslationKeys.dontHaveAccountSignIn: "Don't have an account? Sign in.",
-  TranslationKeys.signIn: "Sign In",
+  TranslationKeys.dontHaveAccountSignIn: "Already have an account? Sign In.",
+  TranslationKeys.dontHaveAccountSignUp: "Don't have an account? Sign Up.",
+  TranslationKeys.signIn: "Sign Up",
   TranslationKeys.signInTitle: "Create an Account",
   TranslationKeys.signInDescription:
       "Enter email address to create an account!",
