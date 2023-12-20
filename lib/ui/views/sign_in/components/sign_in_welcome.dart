@@ -10,16 +10,20 @@ import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_title.dart';
 
 class SignInWelcome extends StatelessWidget {
   const SignInWelcome({
-    super.key,
-  });
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SignInTitle(),
-        SignInDescription(),
+        SignInTitle(
+          textColor: Colors.black, // Set text color to black
+        ),
+        SignInDescription(
+          textColor: Colors.black, // Set text color to black
+        ),
       ],
     );
   }

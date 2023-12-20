@@ -1,17 +1,15 @@
-/*
-Author: XamDesign
-Date: 22.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
 
 class LoginDescription extends StatelessWidget {
+  final Color textColor;
+
   const LoginDescription({
-    super.key,
-  });
+    Key? key,
+    required this.textColor,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,6 +17,7 @@ class LoginDescription extends StatelessWidget {
       TranslationKeys.loginDescription.tr,
       style: context.textTheme.titleMedium?.copyWith(
         fontWeight: FontWeight.w300,
+        color: textColor,
       ),
     );
   }

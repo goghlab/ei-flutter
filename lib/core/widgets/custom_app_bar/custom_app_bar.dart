@@ -10,18 +10,21 @@ class CustomAppBar extends BaseStatelessWidget implements PreferredSizeWidget {
   final Widget? leading;
   final Widget? trailing;
   final bool isTransparent;
+  final Color? textColor; // Added textColor parameter
 
   @override
   final Size preferredSize;
 
   const CustomAppBar({
     required this.title,
-    super.key,
+    Key? key,
     this.titleColor,
     this.leading,
     this.trailing,
     this.isTransparent = false,
-  }) : preferredSize = const Size.fromHeight(kToolbarHeight);
+    this.textColor, // Added textColor parameter
+  })  : preferredSize = const Size.fromHeight(kToolbarHeight),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) => AppBar(
@@ -36,7 +39,7 @@ class CustomAppBar extends BaseStatelessWidget implements PreferredSizeWidget {
           title,
           style: context.textTheme.bodyLarge?.copyWith(
             fontWeight: FontWeight.bold,
-            color: titleColor,
+            color: textColor ?? titleColor, // Use textColor if provided, else use titleColor
           ),
         ),
         centerTitle: true,

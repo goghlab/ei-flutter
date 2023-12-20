@@ -1,9 +1,3 @@
-// ignore_for_file: avoid_field_initializers_in_const_classes
-
-/*
-Author: XamDesign
-Date: 30.05.2023
-*/
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,11 +10,15 @@ class LoginAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Size preferredSize;
 
   const LoginAppBar({
-    super.key,
-  }) : preferredSize = const Size.fromHeight(kToolbarHeight);
+    Key? key,
+  })  : preferredSize = const Size.fromHeight(kToolbarHeight),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return CustomAppBar(title: TranslationKeys.login.tr.toUpperCase());
+    return CustomAppBar(
+      title: TranslationKeys.login.tr.toUpperCase(),
+      textColor: Colors.black, // Set the text color to black
+    );
   }
 }

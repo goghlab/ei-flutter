@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart'; // Make sure to import flutter/material.dart
+import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
 import 'package:xam_shoes_app/core/constants/color_constants.dart';
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
@@ -16,6 +16,8 @@ class CustomSubmitButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Color buttonColor = Color(0xFF008DFF); // Use the hex color code
+
     return Hero(
       tag: "checkout_button",
       child: Container(
@@ -23,13 +25,13 @@ class CustomSubmitButton extends StatelessWidget {
         margin: const EdgeInsets.symmetric(vertical: 12.0),
         child: CupertinoButton(
           onPressed: onTap,
-          color: Colors.black,
+          color: buttonColor,
           padding: const EdgeInsets.symmetric(vertical: 18.0),
           // Remove the borderRadius property to make the button square
           child: Text(
             title,
             style: context.textTheme.bodyLarge?.copyWith(
-              color: kWhiteColor,
+              color: Colors.white, // Set to white color
               fontWeight: FontWeight.w600,
             ),
           ),

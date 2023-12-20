@@ -1,4 +1,3 @@
-// signInForm.dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -9,6 +8,7 @@ import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_password_field
 import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_sign_in_button.dart';
 import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_username_field.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:xam_shoes_app/core/constants/color_constants.dart';
 
 class SignInForm extends StatefulWidget {
   const SignInForm({Key? key}) : super(key: key);
@@ -43,20 +43,37 @@ class _SignInFormState extends State<SignInForm> {
               padding: const EdgeInsets.symmetric(vertical: 8.0),
               child: SignInPasswordField(controller: _passwordController),
             ),
-
-            ElevatedButton(
-              onPressed: () {
-                _signUpWithEmailAndPassword(
-                  _usernameController.text,
-                  _emailController.text,
-                  _passwordController.text,
-                );
-              },
-              child: const Text('Sign Up'),
-            ),
+            const SizedBox(height: 16.0), // Add space between password field and sign-up button
+            _buildSignUpButton(),
           ],
         ),
       ),
+    );
+  }
+
+  ElevatedButton _buildSignUpButton() {
+    return ElevatedButton(
+      onPressed: () {
+        _signUpWithEmailAndPassword(
+          _usernameController.text,
+          _emailController.text,
+          _passwordController.text,
+        );
+      },
+      style: ElevatedButton.styleFrom(
+        primary: const Color(0xFF008DFF),
+        onPrimary: Colors.white,
+        textStyle: const TextStyle(
+          fontSize: 16.0,
+          fontWeight: FontWeight.bold,
+        ),
+        padding: const EdgeInsets.symmetric(vertical: 24.0),
+        minimumSize: const Size(double.infinity, 0),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12.0),
+        ),
+      ),
+      child: const Text('Sign Up'),
     );
   }
 
@@ -87,26 +104,30 @@ class _SignInFormState extends State<SignInForm> {
 
       Get.to(() => const DiscoverScreen());
     } catch (e) {
-      print('Error signing up: $e');
-
-      String errorMessage = 'An error occurred during sign-up.';
-
-      if (e is FirebaseAuthException) {
-        switch (e.code) {
-          case 'invalid-email':
-            errorMessage = 'The email address is badly formatted.';
-            break;
-          case 'email-already-in-use':
-            errorMessage = 'The email address is already in use by another account.';
-            break;
-        }
-      }
-
-      Get.snackbar(
-        'Sign-Up Error',
-        errorMessage,
-        snackPosition: SnackPosition.BOTTOM,
-      );
+      _handleSignUpError(e);
     }
+  }
+
+  void _handleSignUpError(dynamic error) {
+    print('Error signing up: $error');
+
+    String errorMessage = 'An error occurred during sign-up.';
+
+    if (error is FirebaseAuthException) {
+      switch (error.code) {
+        case 'invalid-email':
+          errorMessage = 'The email address is badly formatted.';
+          break;
+        case 'email-already-in-use':
+          errorMessage = 'The email address is already in use by another account.';
+          break;
+      }
+    }
+
+    Get.snackbar(
+      'Sign-Up Error',
+      errorMessage,
+      snackPosition: SnackPosition.BOTTOM,
+    );
   }
 }

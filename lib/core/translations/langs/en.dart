@@ -20,7 +20,7 @@ const Map<String, String> enTranslations = {
 
   // Auth
   TranslationKeys.login: "Log In",
-  TranslationKeys.loginTitle: "Welcome Back!",
+  TranslationKeys.loginTitle: "Welcome!",
   TranslationKeys.loginDescription: "Enter password to get back your account!",
   TranslationKeys.continueWithGoogle: "Continue with Google",
   TranslationKeys.emailTitle: "Email",
