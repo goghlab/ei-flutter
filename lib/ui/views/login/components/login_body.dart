@@ -1,12 +1,6 @@
-/*
-Author: XamDesign
-Date: 5.06.2023
-*/
-
 import 'package:flutter/material.dart';
 
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/core/widgets/sign_in_with_google_button.dart';
 import 'package:xam_shoes_app/ui/views/login/components/login_form.dart';
 import 'package:xam_shoes_app/ui/views/login/components/login_sign_in_button.dart';
 import 'package:xam_shoes_app/ui/views/login/components/login_welcome.dart';
@@ -29,7 +23,6 @@ class LoginBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             LoginWelcome(),
-            SignInWithGoogleButton(),
             LoginForm(),
             Center(child: LoginSignInButton()),
           ],
