@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/navigation/navigation_screen.dart';
+import 'package:xam_shoes_app/ui/views/discover/discover_screen.dart';
 import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_email_field.dart';
 import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_password_field.dart';
 import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_sign_in_button.dart';
 import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_username_field.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class SignInForm extends StatefulWidget {
-  const SignInForm({
-    Key? key,
-  }) : super(key: key);
+
+  const SignInForm({Key? key}) : super(key: key);
 
   @override
   State<SignInForm> createState() => _SignInFormState();
@@ -30,17 +30,20 @@ class _SignInFormState extends State<SignInForm> {
       key: _formKey,
       child: Column(
         children: [
+          // Add your form fields here
           SignInUsernameField(controller: _usernameController),
           SignInEmailField(controller: _emailController),
           SignInPasswordField(controller: _passwordController),
-          SignInSignInButton(
-            onTap: () {
+
+          ElevatedButton(
+            onPressed: () {
               _signUpWithEmailAndPassword(
                 _usernameController.text,
                 _emailController.text,
                 _passwordController.text,
               );
             },
+            child: const Text('Sign Up'),
           ),
         ],
       ),
@@ -53,18 +56,34 @@ class _SignInFormState extends State<SignInForm> {
       email = email.trim();
       print('Attempting to sign up with email: $email');
 
-      await FirebaseAuth.instance.createUserWithEmailAndPassword(
+      // Create a new user with email and password
+      UserCredential userCredential = await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: email,
         password: password,
       );
 
       print('User signed up successfully');
 
+      // Get the user ID from the userCredential
+      String userId = userCredential.user!.uid;
+
+      // Get the current timestamp
+      DateTime now = DateTime.now();
+      Timestamp createdAtTimestamp = Timestamp.fromDate(now);
+
+      // Store user information in Firestore with the userId
+      await FirebaseFirestore.instance.collection('users').doc(userId).set({
+        'userId': userId,
+        'username': username,
+        'email': email,
+        'createdAt': createdAtTimestamp,
+      });
+
       // Optionally, update the user's profile with the provided username
-      await FirebaseAuth.instance.currentUser?.updateProfile(displayName: username);
+      await userCredential.user?.updateProfile(displayName: username);
 
       // Navigate to the next screen or perform additional actions after successful sign-up
-      Get.to(() => const NavigationScreen());
+      Get.to(() => const DiscoverScreen());
     } catch (e) {
       // Log the error details
       print('Error signing up: $e');
