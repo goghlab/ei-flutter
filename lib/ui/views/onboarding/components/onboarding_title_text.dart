@@ -1,10 +1,4 @@
-/*
-Author: XamDesign
-Date: 20.05.2023
-*/
-
 import 'package:flutter/material.dart';
-import 'package:get/get_utils/get_utils.dart';
 
 class OnboardingTitleText extends StatelessWidget {
   final String text;
@@ -18,9 +12,11 @@ class OnboardingTitleText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: context.textTheme.headlineMedium?.copyWith(
+      style: TextStyle(
         fontSize: 40,
-        letterSpacing: 2,
+        letterSpacing: 1,
+        color: Colors.grey, // Set text color to grey
+        fontWeight: FontWeight.bold,
       ),
     );
   }

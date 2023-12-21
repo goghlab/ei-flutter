@@ -21,7 +21,7 @@ class OnboardingTitle extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         OnboardingBorderedTitleText(
-          text: 'Everything Intelligence',
+          text: 'EI-AutoShop',
         ),
         OnboardingTitleText(
           text: 'Demo',

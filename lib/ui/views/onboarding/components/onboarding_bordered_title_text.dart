@@ -4,8 +4,6 @@ Date: 20.05.2023
 */
 
 import 'package:flutter/material.dart';
-
-import 'package:xam_shoes_app/core/utils/text/text_outlined_style.dart';
 import 'package:get/get_utils/get_utils.dart';
 
 class OnboardingBorderedTitleText extends StatelessWidget {
@@ -20,12 +18,11 @@ class OnboardingBorderedTitleText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: context.textTheme.headlineMedium?.copyWith(
+      style: TextStyle(
         fontSize: 40,
-        shadows: CustomTextStyle.outlinedText(
-            strokeColor: context.textTheme.headlineMedium!.color!),
-        letterSpacing: 2,
-        color: Colors.white,
+        letterSpacing: 1,
+        color: Colors.black, // Set text color to black
+        fontWeight: FontWeight.bold,
       ),
     );
   }

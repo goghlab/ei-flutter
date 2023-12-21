@@ -1,10 +1,3 @@
-// ignore_for_file: avoid_field_initializers_in_const_classes
-
-/*
-Author: XamDesign
-Date: 30.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
@@ -25,7 +18,7 @@ class DiscoverAppBar extends StatelessWidget implements PreferredSizeWidget {
     return CustomAppBar(
       title: TranslationKeys.qrCode.tr.toUpperCase(),
       trailing: CustomAppBarNotificationButton(
-        icon: "assets/images/search.svg",
+        icon: "assets/images/menu.svg",
         onPressed: () => Get.to(() => const SearchScreen()),
       ),
     );

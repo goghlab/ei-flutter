@@ -10,7 +10,7 @@ class SignInAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Size preferredSize;
 
   const SignInAppBar({
-    super.key,
+    Key? key,
   }) : preferredSize = const Size.fromHeight(kToolbarHeight);
 
   @override
@@ -18,6 +18,7 @@ class SignInAppBar extends StatelessWidget implements PreferredSizeWidget {
     return CustomAppBar(
       title: TranslationKeys.signIn.tr.toUpperCase(),
       leading: const CustomAppBarBackButton(),
+      textColor: Colors.black, // Set text color to black
     );
   }
 }
