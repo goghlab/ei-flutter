@@ -1,3 +1,5 @@
+// discover_app_bar.dart
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
@@ -10,13 +12,14 @@ class DiscoverAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Size preferredSize;
 
   const DiscoverAppBar({
-    super.key,
+    Key? key,
   }) : preferredSize = const Size.fromHeight(kToolbarHeight);
 
   @override
   Widget build(BuildContext context) {
     return CustomAppBar(
       title: TranslationKeys.qrCode.tr.toUpperCase(),
+      textColor: Colors.black, // Set the text color to black
       trailing: CustomAppBarNotificationButton(
         icon: "assets/images/menu.svg",
         onPressed: () => Get.to(() => const SearchScreen()),

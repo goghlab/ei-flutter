@@ -20,7 +20,7 @@ class UserQRCodeWidget extends StatelessWidget {
 
     // Create a QrImageView widget
     Widget qrImageView = QrImageView(
-      data: 'EI-851013',
+      data: 'Userdata',
       version: QrVersions.auto,
       size: 300.0,
     );
