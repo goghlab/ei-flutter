@@ -53,8 +53,8 @@ class _SignInFormState extends State<SignInForm> {
 
   ElevatedButton _buildSignUpButton() {
     return ElevatedButton(
-      onPressed: () {
-        _signUpWithEmailAndPassword(
+      onPressed: () async {
+        await _signUpWithEmailAndPassword(
           _usernameController.text,
           _emailController.text,
           _passwordController.text,
@@ -93,6 +93,7 @@ class _SignInFormState extends State<SignInForm> {
       DateTime now = DateTime.now();
       Timestamp createdAtTimestamp = Timestamp.fromDate(now);
 
+      // Store the UID in Firestore along with other user details
       await FirebaseFirestore.instance.collection('users').doc(userId).set({
         'userId': userId,
         'username': username,
@@ -102,6 +103,7 @@ class _SignInFormState extends State<SignInForm> {
 
       await userCredential.user?.updateProfile(displayName: username);
 
+      // Navigate to Discover Screen or perform any other actions
       Get.to(() => const DiscoverScreen());
     } catch (e) {
       _handleSignUpError(e);

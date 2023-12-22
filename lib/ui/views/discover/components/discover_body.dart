@@ -1,3 +1,5 @@
+import 'package:firebase_auth/firebase_auth.dart'; // Import FirebaseAuth
+
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:xam_shoes_app/core/utils/device_utils.dart';
@@ -11,6 +13,12 @@ class DiscoverBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Retrieve the current signed-in user
+    User? user = FirebaseAuth.instance.currentUser;
+
+    // Extract user information
+    String userId = user?.uid ?? ''; // Replace with actual user information
+
     return SizedBox(
       height: DeviceUtils.getHeight(context),
       child: Column(
@@ -22,9 +30,7 @@ class DiscoverBody extends StatelessWidget {
               from: 10,
               // Replace DiscoverShoeList with UserQRCodeWidget
               child: UserQRCodeWidget(
-                userId: '12345', // Replace with actual user information
-                name: 'John Doe',
-                phone: '123-456-7890',
+                userId: userId,
               ),
             ),
           ),
@@ -33,5 +39,3 @@ class DiscoverBody extends StatelessWidget {
     );
   }
 }
-
-

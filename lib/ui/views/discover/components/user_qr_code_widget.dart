@@ -3,24 +3,23 @@ import 'package:qr_flutter/qr_flutter.dart';
 
 class UserQRCodeWidget extends StatelessWidget {
   final String userId;
-  final String name;
-  final String phone;
 
   const UserQRCodeWidget({
     Key? key,
     required this.userId,
-    required this.name,
-    required this.phone,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     // Generate dynamic QR code data based on user information
-    String qrCodeData = '$userId\n$name\n$phone';
+    String qrCodeData = userId;
+
+    // Print QR code data for troubleshooting
+    print('QR Code Data: $qrCodeData');
 
     // Create a QrImageView widget
     Widget qrImageView = QrImageView(
-      data: 'Userdata',
+      data: qrCodeData, // Use the generated QR code data
       version: QrVersions.auto,
       size: 300.0,
     );
