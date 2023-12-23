@@ -22,6 +22,8 @@ class UserQRCodeWidget extends StatelessWidget {
       data: qrCodeData, // Use the generated QR code data
       version: QrVersions.auto,
       size: 300.0,
+      foregroundColor: Color(0xFF0D74E6), // Set the foreground color to #0D74E6
+      backgroundColor: Color(0xFFF8F8FA), // Set the background color to F8F8FA
     );
 
     return Center(
@@ -49,7 +51,10 @@ class UserQRCodeWidget extends StatelessWidget {
                   SizedBox(height: 24.0),
                   Text(
                     'Scan to Enter EI_AUTOSHOP',
-                    style: TextStyle(fontSize: 16.0),
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Color(0xFF949BB1), // Set the text color to #949BB1
+                    ),
                   ),
                 ],
               ),
