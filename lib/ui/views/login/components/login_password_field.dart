@@ -1,8 +1,3 @@
-/*
-Author: XamDesign
-Date: 22.05.2023
-*/
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xam_shoes_app/core/translations/translation_keys.dart';
@@ -12,9 +7,12 @@ import 'package:xam_shoes_app/core/widgets/custom_text_field/custom_text_field_w
 import 'package:xam_shoes_app/ui/views/navigation/navigation_screen.dart';
 
 class LoginPasswordField extends StatelessWidget {
+  final TextEditingController controller;
+
   const LoginPasswordField({
-    super.key,
-  });
+    Key? key,
+    required this.controller,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +21,7 @@ class LoginPasswordField extends StatelessWidget {
         vertical: DeviceUtils.getDynamicWidth(context, 0.02),
       ),
       child: CustomTextFieldWithTitle(
+        controller: controller,
         title: TranslationKeys.passwordTitle.tr,
         onFieldSubmitted: (v) {
           if (BaseController.authController.formKey.currentState!.validate()) {
