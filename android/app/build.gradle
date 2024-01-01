@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace "com.xamdesign.shoeApp"
+    namespace "com.ei_autoshop" 
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -43,8 +43,11 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
+    // Get the flutterVersionCode from local.properties or default to 1
+    def flutterVersionCode = localProperties.getProperty('flutter.versionCode') ?: '1'
+
     defaultConfig {
-        applicationId "com.xamdesign.shoeApp"
+        applicationId "com.ei_autoshop" // Change the applicationId here
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
