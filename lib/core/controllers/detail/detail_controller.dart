@@ -6,7 +6,7 @@ Date: 25.05.2023
 import 'dart:ui';
 
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
 
 class DetailController extends GetxController {
   Rx<Color> selectedColor = shoeList.first.colors.first.obs;

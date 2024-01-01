@@ -4,8 +4,8 @@ Date: 20.05.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/constants/string_constants.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/constants/string_constants.dart';
 
 final lightTheme = ThemeData(
   fontFamily: fontFamily,

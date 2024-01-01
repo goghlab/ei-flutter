@@ -5,12 +5,12 @@ Date: 1.06.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/core/widgets/custom_text_field/custom_text_field_with_icon.dart';
-import 'package:xam_shoes_app/ui/views/search/components/search_filter_bottom_sheet.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/widgets/custom_text_field/custom_text_field_with_icon.dart';
+import 'package:ei_autoshop/ui/views/search/components/search_filter_bottom_sheet.dart';
 
 class SearchTextField extends StatelessWidget {
   const SearchTextField({

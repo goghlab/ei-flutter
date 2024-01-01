@@ -5,16 +5,16 @@ Date: 25.05.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/detail/detail_screen.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_item_cart.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_item_fav_button.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_item_image.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_price.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_stock_left.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/detail/detail_screen.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_item_cart.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_item_fav_button.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_item_image.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_price.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_stock_left.dart';
 
 class ShoeItemView extends StatelessWidget {
   final int index;

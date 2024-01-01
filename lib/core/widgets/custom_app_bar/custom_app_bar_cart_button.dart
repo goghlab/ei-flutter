@@ -6,10 +6,10 @@ Date: 13.06.2023
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/base/base_statefull.dart';
-import 'package:xam_shoes_app/ui/views/navigation/navigation_screen.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/base/base_statefull.dart';
+import 'package:ei_autoshop/ui/views/navigation/navigation_screen.dart';
 
 class CustomAppBarCartButton extends StatefulWidget {
   const CustomAppBarCartButton({

@@ -4,9 +4,9 @@ Date: 24.05.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_item.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_item.dart';
 
 class DiscoverShoeList extends StatelessWidget {
   const DiscoverShoeList({

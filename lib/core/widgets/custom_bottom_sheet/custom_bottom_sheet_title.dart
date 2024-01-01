@@ -5,7 +5,7 @@ Date: 1.06.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
 
 class CustomBottomSheetTitle extends BaseStatelessWidget {
   final String title;

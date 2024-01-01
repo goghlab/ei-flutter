@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
 
 class CustomSubmitButton extends StatelessWidget {
   final String title;

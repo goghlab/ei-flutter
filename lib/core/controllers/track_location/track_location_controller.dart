@@ -7,8 +7,8 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import 'package:xam_shoes_app/ui/views/enable_location/enable_location_screen.dart';
-import 'package:xam_shoes_app/ui/views/track_location/track_location_screen.dart';
+import 'package:ei_autoshop/ui/views/enable_location/enable_location_screen.dart';
+import 'package:ei_autoshop/ui/views/track_location/track_location_screen.dart';
 
 class TrackLocationController extends GetxController {
   void checkLocationPermission() async {

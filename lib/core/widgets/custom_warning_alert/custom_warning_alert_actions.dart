@@ -6,8 +6,8 @@ Date: 5.06.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/widgets/custom_warning_alert/custom_warning_alert_button.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/widgets/custom_warning_alert/custom_warning_alert_button.dart';
 
 class CustomWarningAlertActions extends StatelessWidget {
   final String? yesTitle;

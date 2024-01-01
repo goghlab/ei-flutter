@@ -5,8 +5,8 @@ Date: 3.06.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
 
 class CustomDashedHorizontalLine extends BaseStatelessWidget {
   const CustomDashedHorizontalLine({super.key});

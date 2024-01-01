@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_app_bar.dart';
-import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_body.dart';
+import 'package:ei_autoshop/ui/views/sign_up/components/sign_up_app_bar.dart';
+import 'package:ei_autoshop/ui/views/sign_up/components/sign_up_body.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);

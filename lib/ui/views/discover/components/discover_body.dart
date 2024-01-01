@@ -2,9 +2,9 @@ import 'package:firebase_auth/firebase_auth.dart'; // Import FirebaseAuth
 
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/discover/components/user_qr_code_widget.dart';
-import 'package:xam_shoes_app/ui/views/discover/components/discover_title.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/discover/components/user_qr_code_widget.dart';
+import 'package:ei_autoshop/ui/views/discover/components/discover_title.dart';
 
 class DiscoverBody extends StatelessWidget {
   const DiscoverBody({

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_form.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_welcome.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/sign_in/components/sign_in_form.dart';
+import 'package:ei_autoshop/ui/views/sign_in/components/sign_in_welcome.dart';
 
 class SignInBody extends StatelessWidget {
   const SignInBody({

@@ -3,7 +3,7 @@ Author: XamDesign
 Date: 15.06.2023
 */
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
 
 const Map<String, String> enTranslations = {
   // Splash
@@ -95,7 +95,7 @@ const Map<String, String> enTranslations = {
   TranslationKeys.view: "View",
 
   // Search
-  TranslationKeys.search: "Search",
+  TranslationKeys.search: "Menu",
   TranslationKeys.searchForShoes: "Search for shoes",
   TranslationKeys.lastSeen: "Last Seen",
   TranslationKeys.lastSearch: "Last Search",

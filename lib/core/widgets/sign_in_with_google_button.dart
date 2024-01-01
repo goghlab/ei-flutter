@@ -6,9 +6,9 @@ Date: 22.05.2023
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
 
 class SignInWithGoogleButton extends BaseStatelessWidget {
   const SignInWithGoogleButton({

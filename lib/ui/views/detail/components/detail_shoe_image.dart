@@ -5,9 +5,9 @@ Date: 30.05.2023
 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/models/shoe_model.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/detail/components/detail_interactive_shoe_image.dart';
+import 'package:ei_autoshop/core/models/shoe_model.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/detail/components/detail_interactive_shoe_image.dart';
 
 class DetailShoeImage extends StatelessWidget {
   final Shoe shoe;

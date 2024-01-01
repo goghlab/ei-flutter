@@ -4,9 +4,9 @@ Date: 2.06.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
 
 class CartOrderItemImage extends StatelessWidget {
   final String image;

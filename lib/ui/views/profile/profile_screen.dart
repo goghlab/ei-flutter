@@ -5,8 +5,8 @@ Date: 25.05.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/ui/views/profile/components/profile_app_bar.dart';
-import 'package:xam_shoes_app/ui/views/profile/components/profile_body.dart';
+import 'package:ei_autoshop/ui/views/profile/components/profile_app_bar.dart';
+import 'package:ei_autoshop/ui/views/profile/components/profile_body.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({Key? key}) : super(key: key);

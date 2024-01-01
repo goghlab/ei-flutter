@@ -5,10 +5,10 @@ Date: 25.05.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/models/cart_item_model.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_order_item_delete_button.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_order_item_image.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_order_item_info.dart';
+import 'package:ei_autoshop/core/models/cart_item_model.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_order_item_delete_button.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_order_item_image.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_order_item_info.dart';
 
 class CartOrderItem extends StatelessWidget {
   final int index;

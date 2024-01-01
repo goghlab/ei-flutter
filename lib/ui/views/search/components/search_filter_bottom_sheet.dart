@@ -6,12 +6,12 @@ Date: 26.05.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/widgets/custom_bottom_sheet/custom_bottom_sheet.dart';
-import 'package:xam_shoes_app/ui/views/search/components/search_filter_apply_button.dart';
-import 'package:xam_shoes_app/ui/views/search/components/search_filter_color.dart';
-import 'package:xam_shoes_app/ui/views/search/components/search_filter_price.dart';
-import 'package:xam_shoes_app/ui/views/search/components/search_filter_select_size.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/widgets/custom_bottom_sheet/custom_bottom_sheet.dart';
+import 'package:ei_autoshop/ui/views/search/components/search_filter_apply_button.dart';
+import 'package:ei_autoshop/ui/views/search/components/search_filter_color.dart';
+import 'package:ei_autoshop/ui/views/search/components/search_filter_price.dart';
+import 'package:ei_autoshop/ui/views/search/components/search_filter_select_size.dart';
 
 class SearchFilterBottomSheet extends StatefulWidget {
   const SearchFilterBottomSheet({

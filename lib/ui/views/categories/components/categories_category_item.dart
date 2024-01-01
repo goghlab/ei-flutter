@@ -6,10 +6,10 @@ Date: 25.05.2023
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/data/category_list.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/widgets/custom_material_button.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/data/category_list.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/widgets/custom_material_button.dart';
 
 class CategoriesCategoryItem extends StatelessWidget {
   final int index;

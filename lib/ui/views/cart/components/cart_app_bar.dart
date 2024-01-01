@@ -8,9 +8,9 @@ Date: 30.05.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/widgets/custom_app_bar/custom_app_bar.dart';
-import 'package:xam_shoes_app/core/widgets/custom_app_bar/custom_app_bar_notification_button.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/widgets/custom_app_bar/custom_app_bar.dart';
+import 'package:ei_autoshop/core/widgets/custom_app_bar/custom_app_bar_notification_button.dart';
 
 class CartAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override

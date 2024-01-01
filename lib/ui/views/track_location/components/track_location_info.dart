@@ -6,10 +6,10 @@ Date: 6.06.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/track_location/components/track_location_delivery_info.dart';
-import 'package:xam_shoes_app/ui/views/track_location/components/track_location_info_point.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/track_location/components/track_location_delivery_info.dart';
+import 'package:ei_autoshop/ui/views/track_location/components/track_location_info_point.dart';
 
 class TrackLocationInfo extends StatelessWidget {
   const TrackLocationInfo({

@@ -5,12 +5,12 @@ Date: 25.05.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
-import 'package:xam_shoes_app/core/models/cart_item_model.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/widgets/custom_loading_button.dart';
-import 'package:xam_shoes_app/core/widgets/custom_warning_alert/custom_warning_alert.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
+import 'package:ei_autoshop/core/models/cart_item_model.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/widgets/custom_loading_button.dart';
+import 'package:ei_autoshop/core/widgets/custom_warning_alert/custom_warning_alert.dart';
 
 class CartController extends GetxController {
   RxList<CartItem> cartItemList = <CartItem>[].obs;

@@ -5,7 +5,7 @@ Date: 10.06.2023
 
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/models/message_model.dart';
+import 'package:ei_autoshop/core/models/message_model.dart';
 
 RxList<Message> messageList = [
   Message(

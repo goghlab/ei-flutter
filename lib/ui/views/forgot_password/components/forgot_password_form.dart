@@ -6,9 +6,9 @@ Date: 22.05.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/ui/views/reset_password/reset_password_screen.dart';
-import 'package:xam_shoes_app/ui/views/forgot_password/components/forgot_password_email_field.dart';
-import 'package:xam_shoes_app/ui/views/forgot_password/components/forgot_password_send_email_button.dart';
+import 'package:ei_autoshop/ui/views/reset_password/reset_password_screen.dart';
+import 'package:ei_autoshop/ui/views/forgot_password/components/forgot_password_email_field.dart';
+import 'package:ei_autoshop/ui/views/forgot_password/components/forgot_password_send_email_button.dart';
 
 class ForgotPasswordForm extends StatefulWidget {
   const ForgotPasswordForm({

@@ -6,10 +6,10 @@ Date: 30.05.2023
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get_utils/get_utils.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
-import 'package:xam_shoes_app/core/widgets/custom_loading_button.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/widgets/custom_loading_button.dart';
 
 class DetailAddToCartButton extends BaseStatelessWidget {
   final int shoeId;

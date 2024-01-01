@@ -6,8 +6,8 @@ Date: 10.06.2023
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:sticky_grouped_list/sticky_grouped_list.dart';
-import 'package:xam_shoes_app/core/data/message_list.dart';
-import 'package:xam_shoes_app/core/models/message_model.dart';
+import 'package:ei_autoshop/core/data/message_list.dart';
+import 'package:ei_autoshop/core/models/message_model.dart';
 
 class MessageController extends GetxController {
   final TextEditingController messageEditController = TextEditingController();

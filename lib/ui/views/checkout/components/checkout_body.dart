@@ -5,10 +5,10 @@ Date: 30.05.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/ui/views/checkout/components/checkout_card_list.dart';
-import 'package:xam_shoes_app/ui/views/checkout/components/checkout_delivery_address.dart';
-import 'package:xam_shoes_app/ui/views/checkout/components/checkout_title.dart';
-import 'package:xam_shoes_app/ui/views/checkout/components/checkout_total_info.dart';
+import 'package:ei_autoshop/ui/views/checkout/components/checkout_card_list.dart';
+import 'package:ei_autoshop/ui/views/checkout/components/checkout_delivery_address.dart';
+import 'package:ei_autoshop/ui/views/checkout/components/checkout_title.dart';
+import 'package:ei_autoshop/ui/views/checkout/components/checkout_total_info.dart';
 
 class CheckoutBody extends StatelessWidget {
   const CheckoutBody({

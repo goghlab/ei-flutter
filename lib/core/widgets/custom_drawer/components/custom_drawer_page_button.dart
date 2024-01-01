@@ -5,7 +5,7 @@ Date: 29.05.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
 
 class CustomDrawerPageButton extends BaseStatelessWidget {
   final String title;

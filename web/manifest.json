@@ -1,6 +1,6 @@
 {
-    "name": "xam_shoes_app",
-    "short_name": "xam_shoes_app",
+    "name": "ei_autoshop",
+    "short_name": "ei_autoshop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

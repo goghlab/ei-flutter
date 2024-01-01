@@ -4,9 +4,9 @@ Date: 25.05.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/ui/views/account/components/account_app_bar.dart';
-import 'package:xam_shoes_app/ui/views/account/components/account_body.dart';
-import 'package:xam_shoes_app/ui/views/account/components/account_save_changes_button.dart';
+import 'package:ei_autoshop/ui/views/account/components/account_app_bar.dart';
+import 'package:ei_autoshop/ui/views/account/components/account_body.dart';
+import 'package:ei_autoshop/ui/views/account/components/account_save_changes_button.dart';
 
 class AccountScreen extends StatelessWidget {
   const AccountScreen({Key? key}) : super(key: key);

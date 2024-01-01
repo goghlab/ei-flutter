@@ -4,10 +4,10 @@ Date: 30.05.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/categories/components/categories_category_list.dart';
-import 'package:xam_shoes_app/ui/views/categories/components/categories_shoe_list.dart';
-import 'package:xam_shoes_app/ui/views/categories/components/categories_title.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/categories/components/categories_category_list.dart';
+import 'package:ei_autoshop/ui/views/categories/components/categories_shoe_list.dart';
+import 'package:ei_autoshop/ui/views/categories/components/categories_title.dart';
 
 class CategoriesBody extends StatelessWidget {
   const CategoriesBody({

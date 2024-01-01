@@ -4,9 +4,9 @@ Date: 27.05.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/data/filter_size_list.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/search/components/search_filter_select_size_item.dart';
+import 'package:ei_autoshop/core/data/filter_size_list.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/search/components/search_filter_select_size_item.dart';
 
 class SearchFilterSelectSizeList extends StatelessWidget {
   const SearchFilterSelectSizeList({

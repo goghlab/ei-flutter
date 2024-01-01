@@ -6,8 +6,8 @@ Date: 3.06.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
 
 class OrderSuccessfulTitle extends BaseStatelessWidget {
   const OrderSuccessfulTitle({

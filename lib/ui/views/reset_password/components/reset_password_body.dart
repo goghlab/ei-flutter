@@ -5,9 +5,9 @@ Date: 5.06.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/reset_password/components/reset_password_form.dart';
-import 'package:xam_shoes_app/ui/views/reset_password/components/reset_password_welcome.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/reset_password/components/reset_password_form.dart';
+import 'package:ei_autoshop/ui/views/reset_password/components/reset_password_welcome.dart';
 
 class ResetPasswordBody extends StatelessWidget {
   const ResetPasswordBody({

@@ -5,11 +5,11 @@ Date: 30.05.2023
 
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_checkout_button.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_order_list.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_title.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_total.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_checkout_button.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_order_list.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_title.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_total.dart';
 
 class CartBody extends StatelessWidget {
   const CartBody({

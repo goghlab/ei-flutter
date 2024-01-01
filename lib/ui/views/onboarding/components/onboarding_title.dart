@@ -6,10 +6,10 @@ Date: 20.05.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/ui/views/onboarding/components/onboarding_bordered_title_text.dart';
-import 'package:xam_shoes_app/ui/views/onboarding/components/onboarding_title_text.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/ui/views/onboarding/components/onboarding_bordered_title_text.dart';
+import 'package:ei_autoshop/ui/views/onboarding/components/onboarding_title_text.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
 
 class OnboardingTitle extends StatelessWidget {
   const OnboardingTitle({Key? key}) : super(key: key);

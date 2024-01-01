@@ -4,9 +4,9 @@ Date: 1.06.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
-import 'package:xam_shoes_app/ui/views/cart/components/cart_order_item_piece.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_price.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
+import 'package:ei_autoshop/ui/views/cart/components/cart_order_item_piece.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_price.dart';
 
 class CartOrderItemInfo extends StatelessWidget {
   final int index;

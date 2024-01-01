@@ -3,7 +3,7 @@ Author: XamDesign
 Date: 12.06.2023
 */
 
-import 'package:xam_shoes_app/core/models/colorful_icon_model.dart';
+import 'package:ei_autoshop/core/models/colorful_icon_model.dart';
 
 class CardBrandModel {
   final String name;

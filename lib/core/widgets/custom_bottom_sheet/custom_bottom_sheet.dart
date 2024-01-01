@@ -5,7 +5,7 @@ Date: 26.05.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/widgets/custom_bottom_sheet/custom_bottom_sheet_title.dart';
+import 'package:ei_autoshop/core/widgets/custom_bottom_sheet/custom_bottom_sheet_title.dart';
 
 class CustomBottomSheet extends StatefulWidget {
   final String title;

@@ -3,10 +3,10 @@ Author: XamDesign
 Date: 7.06.2023
 */
 
-import 'package:xam_shoes_app/core/enums/order_status_enum.dart';
-import 'package:xam_shoes_app/core/models/order_location_model.dart';
-import 'package:xam_shoes_app/core/models/order_supplier_model.dart';
-import 'package:xam_shoes_app/core/models/shoe_model.dart';
+import 'package:ei_autoshop/core/enums/order_status_enum.dart';
+import 'package:ei_autoshop/core/models/order_location_model.dart';
+import 'package:ei_autoshop/core/models/order_supplier_model.dart';
+import 'package:ei_autoshop/core/models/shoe_model.dart';
 
 class Order {
   int id;

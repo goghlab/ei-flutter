@@ -4,8 +4,8 @@ Date: 7.06.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/ui/views/chat/components/chat_app_bar.dart';
-import 'package:xam_shoes_app/ui/views/chat/components/chat_body.dart';
+import 'package:ei_autoshop/ui/views/chat/components/chat_app_bar.dart';
+import 'package:ei_autoshop/ui/views/chat/components/chat_body.dart';
 
 class ChatScreen extends StatelessWidget {
   final String title;

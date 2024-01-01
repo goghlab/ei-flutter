@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
 
 class HomeCarousel extends StatelessWidget {
   const HomeCarousel({Key? key});

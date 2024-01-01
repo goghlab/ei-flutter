@@ -5,9 +5,9 @@ Date: 29.05.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
-import 'package:xam_shoes_app/core/widgets/custom_app_bar/custom_app_bar_back_button.dart';
-import 'package:xam_shoes_app/core/widgets/custom_drawer/components/custom_drawer_title.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/core/widgets/custom_app_bar/custom_app_bar_back_button.dart';
+import 'package:ei_autoshop/core/widgets/custom_drawer/components/custom_drawer_title.dart';
 
 class CustomDrawerTopSection extends BaseStatelessWidget {
   const CustomDrawerTopSection({

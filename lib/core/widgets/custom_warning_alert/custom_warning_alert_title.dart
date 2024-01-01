@@ -5,7 +5,7 @@ Date: 5.06.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
 
 class CustomWarningAlertTitle extends StatelessWidget {
   final String title;

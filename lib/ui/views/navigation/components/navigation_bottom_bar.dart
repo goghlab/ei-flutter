@@ -4,9 +4,9 @@ Date: 25.05.2023
 */
 
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/navigation/components/navigation_item.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/navigation/components/navigation_item.dart';
 
 class NavigationBottomBar extends StatelessWidget {
   const NavigationBottomBar({

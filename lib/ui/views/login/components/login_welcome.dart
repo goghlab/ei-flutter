@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/ui/views/login/components/login_description.dart';
-import 'package:xam_shoes_app/ui/views/login/components/login_title.dart';
+import 'package:ei_autoshop/ui/views/login/components/login_description.dart';
+import 'package:ei_autoshop/ui/views/login/components/login_title.dart';
 
 class LoginWelcome extends StatelessWidget {
   const LoginWelcome({

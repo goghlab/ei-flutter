@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
 
 class SignInTitle extends StatelessWidget {
   final Color textColor;

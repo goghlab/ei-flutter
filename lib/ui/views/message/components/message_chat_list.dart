@@ -5,10 +5,10 @@ Date: 7.06.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/data/order_supplier_list.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/message/components/message_chat_item.dart';
-import 'package:xam_shoes_app/ui/views/message/components/message_chat_list_title.dart';
+import 'package:ei_autoshop/core/data/order_supplier_list.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/message/components/message_chat_item.dart';
+import 'package:ei_autoshop/ui/views/message/components/message_chat_list_title.dart';
 
 class MessageChatList extends StatelessWidget {
   const MessageChatList({

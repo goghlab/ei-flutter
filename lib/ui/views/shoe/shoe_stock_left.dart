@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
 
 class ShoeStockLeft extends StatelessWidget {
   final int index;

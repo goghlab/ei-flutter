@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:xam_shoes_app/ui/views/discover/discover_screen.dart';
-import 'package:xam_shoes_app/ui/views/login/components/login_email_field.dart';
-import 'package:xam_shoes_app/ui/views/login/components/login_password_field.dart';
+import 'package:ei_autoshop/ui/views/discover/discover_screen.dart';
+import 'package:ei_autoshop/ui/views/login/components/login_email_field.dart';
+import 'package:ei_autoshop/ui/views/login/components/login_password_field.dart';
 
 class LoginForm extends StatefulWidget {
   const LoginForm({Key? key}) : super(key: key);

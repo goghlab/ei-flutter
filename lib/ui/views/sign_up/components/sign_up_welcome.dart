@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_description.dart';
-import 'package:xam_shoes_app/ui/views/sign_up/components/sign_up_title.dart';
+import 'package:ei_autoshop/ui/views/sign_up/components/sign_up_description.dart';
+import 'package:ei_autoshop/ui/views/sign_up/components/sign_up_title.dart';
 
 class SignUpWelcome extends StatelessWidget {
   const SignUpWelcome({

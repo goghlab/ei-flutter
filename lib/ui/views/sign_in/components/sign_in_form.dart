@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/discover/discover_screen.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_email_field.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_password_field.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_sign_in_button.dart';
-import 'package:xam_shoes_app/ui/views/sign_in/components/sign_in_username_field.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/discover/discover_screen.dart';
+import 'package:ei_autoshop/ui/views/sign_in/components/sign_in_email_field.dart';
+import 'package:ei_autoshop/ui/views/sign_in/components/sign_in_password_field.dart';
+import 'package:ei_autoshop/ui/views/sign_in/components/sign_in_sign_in_button.dart';
+import 'package:ei_autoshop/ui/views/sign_in/components/sign_in_username_field.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
 
 class SignInForm extends StatefulWidget {
   const SignInForm({Key? key}) : super(key: key);

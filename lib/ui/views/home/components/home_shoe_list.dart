@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/data/shoe_list.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/base/base_statefull.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/ui/views/home/components/home_carousel.dart';
-import 'package:xam_shoes_app/ui/views/shoe/shoe_item.dart';
+import 'package:ei_autoshop/core/data/shoe_list.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/base/base_statefull.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/ui/views/home/components/home_carousel.dart';
+import 'package:ei_autoshop/ui/views/shoe/shoe_item.dart';
 
 class HomeShoeList extends StatefulWidget {
   const HomeShoeList({

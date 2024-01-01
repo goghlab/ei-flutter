@@ -5,13 +5,13 @@ Date: 13.06.2023
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/data/language_list.dart';
-import 'package:xam_shoes_app/core/models/language_model.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/core/widgets/custom_bottom_sheet/custom_bottom_sheet_subtitle.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/data/language_list.dart';
+import 'package:ei_autoshop/core/models/language_model.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/widgets/custom_bottom_sheet/custom_bottom_sheet_subtitle.dart';
 
 class SettingsLanguageBottomSheetLanguageRow extends StatefulWidget {
   const SettingsLanguageBottomSheetLanguageRow({

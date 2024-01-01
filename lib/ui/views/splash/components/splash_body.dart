@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/ui/views/splash/components/splash_logo.dart';
-import 'package:xam_shoes_app/ui/views/splash/components/splash_title.dart';
+import 'package:ei_autoshop/ui/views/splash/components/splash_logo.dart';
+import 'package:ei_autoshop/ui/views/splash/components/splash_title.dart';
 
 class SplashBody extends StatelessWidget {
   const SplashBody({Key? key});

@@ -5,10 +5,10 @@ Date: 30.05.2023
 
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/core/models/shoe_model.dart';
-import 'package:xam_shoes_app/ui/views/detail/components/detail_info.dart';
-import 'package:xam_shoes_app/ui/views/detail/components/detail_properties.dart';
-import 'package:xam_shoes_app/ui/views/detail/components/detail_shoe_image.dart';
+import 'package:ei_autoshop/core/models/shoe_model.dart';
+import 'package:ei_autoshop/ui/views/detail/components/detail_info.dart';
+import 'package:ei_autoshop/ui/views/detail/components/detail_properties.dart';
+import 'package:ei_autoshop/ui/views/detail/components/detail_shoe_image.dart';
 
 class DetailBody extends StatelessWidget {
   final Shoe shoe;

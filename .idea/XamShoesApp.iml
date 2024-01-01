@@ -18,6 +18,9 @@
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/permission_handler_apple/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/permission_handler_apple/build" />
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/permission_handler_apple/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/ui/views/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/ui/views/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/ui/views/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

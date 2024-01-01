@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:xam_shoes_app/ui/views/home/components/home_shoe_list.dart';
+import 'package:ei_autoshop/ui/views/home/components/home_shoe_list.dart';
 
 class MyHomePage extends StatelessWidget {
   @override

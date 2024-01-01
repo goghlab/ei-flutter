@@ -6,10 +6,10 @@ Date: 3.06.2023
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/widgets/custom_warning_alert/custom_warning_alert.dart';
-import 'package:xam_shoes_app/ui/views/login/login_screen.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/widgets/custom_warning_alert/custom_warning_alert.dart';
+import 'package:ei_autoshop/ui/views/login/login_screen.dart';
 
 class SettingsDeleteAccountButton extends StatelessWidget {
   const SettingsDeleteAccountButton({

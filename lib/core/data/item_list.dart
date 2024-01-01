@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/models/item_model.dart';
+import 'package:ei_autoshop/core/models/item_model.dart';
 
 List<ConvenienceStoreItem> convenienceStoreItemList = [
   ConvenienceStoreItem(

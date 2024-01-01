@@ -6,10 +6,10 @@ Date: 29.05.2023
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/translations/translation_keys.dart';
-import 'package:xam_shoes_app/core/utils/base/base_controller.dart';
-import 'package:xam_shoes_app/core/utils/base/base_stateless.dart';
-import 'package:xam_shoes_app/ui/views/login/login_screen.dart';
+import 'package:ei_autoshop/core/translations/translation_keys.dart';
+import 'package:ei_autoshop/core/utils/base/base_controller.dart';
+import 'package:ei_autoshop/core/utils/base/base_stateless.dart';
+import 'package:ei_autoshop/ui/views/login/login_screen.dart';
 
 class CustomDrawerSignOutButton extends BaseStatelessWidget {
   const CustomDrawerSignOutButton({Key? key}) : super(key: key);

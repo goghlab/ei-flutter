@@ -8,9 +8,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:xam_shoes_app/core/utils/base/base_statefull.dart';
-import 'package:xam_shoes_app/ui/views/order_successful/components/order_successful_body.dart';
-import 'package:xam_shoes_app/ui/views/order_successful/components/order_successful_go_home_button.dart';
+import 'package:ei_autoshop/core/utils/base/base_statefull.dart';
+import 'package:ei_autoshop/ui/views/order_successful/components/order_successful_body.dart';
+import 'package:ei_autoshop/ui/views/order_successful/components/order_successful_go_home_button.dart';
 
 class OrderSuccessfulScreen extends StatefulWidget {
   const OrderSuccessfulScreen({Key? key}) : super(key: key);

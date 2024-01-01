@@ -5,8 +5,8 @@ Date: 3.06.2023
 
 import 'package:flutter/material.dart';
 
-import 'package:xam_shoes_app/core/utils/device_utils.dart';
-import 'package:xam_shoes_app/core/widgets/custom_dashed_horizontal_line.dart';
+import 'package:ei_autoshop/core/utils/device_utils.dart';
+import 'package:ei_autoshop/core/widgets/custom_dashed_horizontal_line.dart';
 
 class CheckoutDivider extends StatelessWidget {
   const CheckoutDivider({

@@ -6,7 +6,7 @@ Date: 30.05.2023
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
 
-import 'package:xam_shoes_app/core/constants/color_constants.dart';
+import 'package:ei_autoshop/core/constants/color_constants.dart';
 
 class DetailPropertyText extends StatelessWidget {
   final String title;

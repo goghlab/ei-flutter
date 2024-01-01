@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:xam_shoes_app/core/utils/card_number_formatter.dart';
+import 'package:ei_autoshop/core/utils/card_number_formatter.dart';
 
 class CardsController extends GetxController {
   RxString cardNumber = "4321 5678 9012 3456".obs;

@@ -211,7 +211,7 @@ class TranslationKeys {
   static const String writeReply = "write_reply";
 
   // Cards
-  static const String cards = "cards";
+  static const String cards = "Payment Setting";
   static const String paymentCards = "payment_cards";
   static const String cardNumberTitle = "card_number_title";
   static const String cardNumberHint = "card_number_hint";
